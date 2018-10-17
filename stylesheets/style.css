@@ -1,0 +1,269 @@
+/* line 13, ../sass/style.scss */
+.nav .nav-item a {
+  font-family: "Sofia-Pro-Extra-Light", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.21;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #ffffff;
+}
+/* line 25, ../sass/style.scss */
+.nav .nav-item a.active {
+  color: blue;
+}
+/* line 28, ../sass/style.scss */
+.nav .nav-item a:hover {
+  color: pink;
+}
+
+/* line 36, ../sass/style.scss */
+h2 h4 h5 {
+  font-family: "Sofia-Pro-Medium", sans-serif;
+  color: #868686;
+}
+
+/* line 42, ../sass/style.scss */
+p {
+  font-family: "Sofia-Pro-Light", sans-serif;
+}
+
+/* line 45, ../sass/style.scss */
+.subscribe {
+  border: none;
+  width: 260px;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+/* line 51, ../sass/style.scss */
+.button {
+  font-family: "Sofia-Pro-Medium", sans-serif;
+  width: 159px;
+  height: 52px;
+  background-color: #080808;
+  border: none;
+  color: white;
+}
+
+/* line 59, ../sass/style.scss */
+.hero-content {
+  padding: 324px 0 280px;
+}
+
+/* line 62, ../sass/style.scss */
+.logo {
+  width: 120.9px;
+  height: 48.7px;
+  object-fit: contain;
+  mix-blend-mode: undefined;
+}
+
+/* line 68, ../sass/style.scss */
+.hero-title {
+  font-family: "Sofia-Pro-Semi-Bold", sans-serif;
+  font-size: 84px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.43;
+  letter-spacing: 2.5px;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* line 79, ../sass/style.scss */
+.sub-content {
+  font-size: 32px;
+  font-family: "Sofia-Pro-Light", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.97;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* line 90, ../sass/style.scss */
+.hero-cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bg-cover.png") no-repeat center center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+/* line 97, ../sass/style.scss */
+.hero-small-image {
+  width: 172px;
+  height: 130.2px;
+  margin-right: -15px;
+  position: relative;
+  bottom: 136px;
+}
+
+/* line 104, ../sass/style.scss */
+.hero-small-details {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+/* line 114, ../sass/style.scss */
+.text-right {
+  margin-top: -30px;
+  margin-bottom: 50px;
+  color: #ffffff;
+  width: 389px;
+  height: 130.2px;
+  opacity: 0.7;
+  background-color: #080808;
+}
+
+/* line 125, ../sass/style.scss */
+.col-sm-8 .hero-icon a {
+  padding-left: 40px;
+  color: #ffffff;
+}
+
+/* line 132, ../sass/style.scss */
+.feature-section {
+  background-color: #F5F5F5;
+}
+
+/* line 135, ../sass/style.scss */
+.feature-section-sub1 {
+  padding: 200px 0px 50px;
+}
+
+/* line 138, ../sass/style.scss */
+.feature-section-sub2 {
+  padding: 100px 100px;
+}
+
+/* line 141, ../sass/style.scss */
+.feature-section1-sub3 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* line 145, ../sass/style.scss */
+.feature-section1-sub4 {
+  text-align: center;
+}
+
+/* line 148, ../sass/style.scss */
+.feature-section2 {
+  background: url("../images/feature-section2.png") no-repeat center center;
+  background-size: cover;
+  height: 383px;
+}
+
+/* line 153, ../sass/style.scss */
+.feature-section3 {
+  background-color: #F5F5F5;
+  padding: 113px;
+}
+
+/* line 157, ../sass/style.scss */
+.feature-section4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bg-cover2.png") no-repeat center center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+/* line 164, ../sass/style.scss */
+.text {
+  color: #ffffff;
+}
+
+/* line 168, ../sass/style.scss */
+.feature-section6 .col-md-4 {
+  height: 80vh;
+  background-size: cover !important;
+}
+
+/* line 173, ../sass/style.scss */
+.feature-section6 {
+  background-repeat: no-repeat;
+}
+/* line 175, ../sass/style.scss */
+.feature-section6 .item1 {
+  background-image: url("../images/feature-section6.1.png");
+}
+/* line 178, ../sass/style.scss */
+.feature-section6 .item2 {
+  background-image: url("../images/feature-section6.2.png");
+}
+/* line 181, ../sass/style.scss */
+.feature-section6 .item3 {
+  background-image: url("../images/feature-section6.3.png");
+}
+
+/* line 185, ../sass/style.scss */
+.feature-section7 {
+  background: url("../images/feature-section7.png") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* line 190, ../sass/style.scss */
+.feature-section8 {
+  background-color: #212020;
+  padding: 73px 24px 30px 303px;
+}
+
+/* line 194, ../sass/style.scss */
+.feature-section9 {
+  background-color: #212020;
+  padding: 4px;
+}
+
+/* line 198, ../sass/style.scss */
+.feature-section8-sub1 {
+  text-align: left;
+  color: #ffffff;
+}
+
+/* line 202, ../sass/style.scss */
+.feature-section8-sub2 {
+  color: #ffffff;
+}
+
+/* line 205, ../sass/style.scss */
+.nav-link-section8 {
+  font-family: "Sofia-Pro-Extra-Light", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.21;
+  letter-spacing: 0.4px;
+  text-align: right;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* line 217, ../sass/style.scss */
+.feature-section8-sub3 {
+  color: #868686;
+  text-align: center;
+}
+
+/* line 221, ../sass/style.scss */
+.discover-button {
+  background-color: #F5F5F5;
+  width: 270px;
+  height: 52px;
+  border: solid 1px #707070;
+}

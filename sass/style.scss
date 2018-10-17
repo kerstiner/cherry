@@ -1,0 +1,226 @@
+//***** colors *****/
+$Sofia-Pro-Extra-Light: "Sofia-Pro-Extra-Light", sans-serif;
+$Sofia-Pro-Semi-Bold: "Sofia-Pro-Semi-Bold", sans-serif;
+$Sofia-Pro-Light: "Sofia-Pro-Light", sans-serif;
+$Sofia-Pro-Medium: "Sofia-Pro-Medium", sans-serif;
+
+
+//***** colors *****/
+$white: #ffffff;
+
+.nav{
+	.nav-item {
+		a{
+			font-family: $Sofia-Pro-Extra-Light;
+			font-size: 14px;
+		  	font-weight: 200;
+		  	font-style: normal;
+		  	font-stretch: normal;
+		  	line-height: 2.21;
+		  	letter-spacing: 0.4px;
+		  	text-align: left;
+		  	color: $white;
+
+
+		  	&.active{
+		  		color:blue;
+		  	}
+		  	&:hover{
+		  		color:pink;
+		  	}
+		}
+	}
+}
+h2 {
+	h4 {
+		h5 {
+			font-family: $Sofia-Pro-Medium;
+			color: #868686;
+			}
+	}
+}
+p{
+	font-family: "Sofia-Pro-Light", sans-serif;
+}
+.subscribe{
+  	border: none;
+  	width: 260px;
+  	height: 50px;
+  	background-color: $white;
+}
+.button{
+  	font-family: $Sofia-Pro-Medium;
+  	width: 159px;
+  	height: 52px;
+  	background-color: #080808;
+  	border: none;
+  	color: white;
+}
+.hero-content {
+	padding: 324px 0 280px;
+}
+.logo{
+	width: 120.9px;
+  	height: 48.7px;
+  	object-fit: contain;
+  	mix-blend-mode: undefined;
+}
+.hero-title {
+	font-family: $Sofia-Pro-Semi-Bold;
+	font-size: 84px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 0.43;
+	letter-spacing: 2.5px;
+	text-align: left;
+	color: $white;
+}
+.sub-content{
+	font-size: 32px;
+	font-family: $Sofia-Pro-Light;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 0.97;
+  	letter-spacing: 1px;
+  	text-align: left;
+  	color: $white;
+}
+.hero-cover {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/bg-cover.png") no-repeat center center;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+}
+.hero-small-image{
+	width: 172px;
+  	height: 130.2px;
+  	margin-right: -15px;
+    position: relative;
+    bottom: 136px;
+}
+.hero-small-details{
+	text-align: left;
+	font-size: 14px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.43;
+  	letter-spacing: 0.4px;
+  	color: $white;
+}
+.text-right{
+	margin-top: -30px;
+	margin-bottom: 50px;
+	color: $white;
+	width: 389px;
+  	height: 130.2px;
+  	opacity: 0.7;
+ 	background-color: #080808;
+}	
+.col-sm-8 {
+	.hero-icon {
+		a{
+			padding-left: 40px;
+			color: $white;
+		}
+
+	}
+}
+.feature-section {
+	background-color: #F5F5F5;
+}
+.feature-section-sub1{
+	padding: 200px 0px 50px;
+}
+.feature-section-sub2{
+	padding: 100px 100px;
+}
+.feature-section1-sub3{
+	text-align: center;
+	padding-top: 100px;
+}
+.feature-section1-sub4{
+	text-align: center;
+}
+.feature-section2{
+	background: url("../images/feature-section2.png") no-repeat center center;
+	background-size: cover;
+	height: 383px;
+}
+.feature-section3{
+	background-color: #F5F5F5;
+	padding: 113px;
+}
+.feature-section4{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/bg-cover2.png") no-repeat center center;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+}
+.text{
+	color: $white;
+}
+.feature-section6 {
+	.col-md-4 {
+  				height: 80vh;
+				background-size: cover !important;
+			   }
+}
+.feature-section6 {
+	background-repeat: no-repeat;
+	.item1 {
+		background-image: url("../images/feature-section6.1.png");
+	}
+	.item2 {
+		background-image: url("../images/feature-section6.2.png");
+	}
+	.item3 {
+		background-image: url("../images/feature-section6.3.png");
+	}	
+}
+.feature-section7{
+	background: url("../images/feature-section7.png") no-repeat center center;
+	background-size: cover;
+  	height: 100vh;
+}
+.feature-section8{
+	background-color: #212020;
+	padding: 73px 24px 30px 303px;
+}
+.feature-section9{
+	background-color: #212020;
+	padding: 4px;
+}
+.feature-section8-sub1{
+	text-align: left;
+	color: $white;
+}
+.feature-section8-sub2{
+	color: $white;
+}
+.nav-link-section8{
+	font-family: $Sofia-Pro-Extra-Light;
+	font-size: 14px;
+  	font-weight: 200;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 2.21;
+  	letter-spacing: 0.4px;
+  	text-align: right;
+  	text-decoration: none;
+  	color: $white;
+}
+.feature-section8-sub3{
+	color: #868686;
+	text-align: center;
+}
+.discover-button{
+	background-color: #F5F5F5;
+    width: 270px;
+  	height: 52px;
+  	border: solid 1px #707070;
+}
